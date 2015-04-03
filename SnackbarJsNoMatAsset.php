@@ -9,7 +9,7 @@ use yii\web\AssetBundle;
  *
  * @author Romanos Tsouroplis <rom-dim@hotmail.com>
  */
-class SnackbarJsAsset extends AssetBundle
+class SnackbarJsNoMatAsset extends AssetBundle
 {
 	public $sourcePath = '@bower/snackbarjs/dist';
 	public $css = [
