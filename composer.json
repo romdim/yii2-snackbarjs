@@ -1,0 +1,31 @@
+{
+  "name": "romdim/yii2-snackbarjs",
+  "description": "Composer package for implementing FezVrasta's Snackbar Js in Yii2.",
+  "keywords": [
+    "yii", "yii2", "snackbarjs"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/romdim/yii2-snackbarjs/issues",
+    "source": "https://github.com/romdim/yii2-snackbarjs"
+  },
+  "authors": [
+    {
+      "name": "Romanos Tsouroplis",
+      "email": "rom-dim@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "*",
+    "romdim/bootstrap/material": "dev-master",
+    "bower-asset/snackbarjs": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "romdim\\snackbarjs\\": ""
+    }
+  }
+}
