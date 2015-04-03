@@ -20,7 +20,7 @@
   "minimum-stability": "stable",
   "require": {
     "yiisoft/yii2": "*",
-    "romdim/bootstrap/material": "dev-master",
+    "romdim/yii2-bootstrap-material": "dev-master",
     "bower-asset/snackbarjs": "*"
   },
   "autoload": {
